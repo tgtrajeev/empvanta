@@ -31,15 +31,6 @@ export default function Navbar() {
     >
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 76 }}>
         <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: 10 }} aria-label="Empvanta HRMS home">
-          <span
-            style={{
-              width: 38, height: 38, borderRadius: 10, background: 'var(--ink)',
-              color: 'var(--gold)', display: 'flex', alignItems: 'center', justifyContent: 'center',
-              fontWeight: 800, fontSize: 18,
-            }}
-          >
-            E
-          </span>
           <span style={{ fontWeight: 800, fontSize: 19, letterSpacing: '-0.01em' }}>
             Empvanta <span style={{ color: 'var(--blue)' }}>HRMS</span>
           </span>
